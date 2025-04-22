@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Bobrick</title>
+  <meta content="jeremy parker resume and portfolio" name="description">
+  <meta content="jeremy, parker, resume, portfolio" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../images/favicon.ico" rel="icon">
+  <link href="../images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap-icons.css" rel="stylesheet">
+  <link href="../css/aos.css" rel="stylesheet">
+  <link href="../css/glightbox.min.css" rel="stylesheet">
+  <link href="../css/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="../index.html#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="../index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="../index.html#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li class="current">Bobrick Washroom Equipment</li>
+          </ol>
+        </nav>
+        <h1>Bobrick Washroom Equipment</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <!-- <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="../images/fluence-energy/component view.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="../images/fluence-energy/fold back.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="../images/fluence-energy/table_early4.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="../images/fluence-energy/table_early3.png" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div> -->
+
+        <div class="row justify-content-center gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <p>
+                At Bobrick I was tasked with updating their old, outsourced staff suggestion box. Employees could login via OAUTH through MS Azure with their email. Then they could add things like safety issues, request updated supplies or equipment, ask for changes in workflow, or make any other suggestion that could improve productivity and safety. The goal was to bring the product in-house in a low code environment. This page of my portfolio will show the UX research process, then the UX design through to prototype, and then building out of the application.
+              </p>
+
+              <p>This is the Specifications Document that was created after research and before development: <a href="SMI FuncTech Spec Doc v0.2.pdf">SMI SpecDoc</a></p>
+              <p>If you would like to jump ahead to an early prototype of this app, you can find that link here: 
+                <a href="https://smi-nine.vercel.app/" target="_blank">https://smi-nine.vercel.app</a>
+                
+                Also, the entirety of the code is available in my github here: <a href="https://github.com/jpbrla/Smi">https://github.com/jpbrla/Smi</a></p>
+              <p>This is what the software looked like in the beginning. I was tasked with the update to design, controls, and user experience of this form. Also, the form would be brought to an in-house backend environment with Azure cloud environment. Analytics for administrative data and reports for meetings.</p>
+              <h5>The original form that was hosted by another company at a premium rate:</h5>
+              <img src="../images/bobrick/image 17.png" alt="bobrick image">
+              <img src="../images/bobrick/image 18.png" alt="bobrick image">
+              <br><br><br>
+              <h5>Once the research was complete, I began wireframes and mockups of the new UX design presented with notes below:</h5><br>
+              <img src="../images/bobrick/Frame 17.png" alt="bobrick image">
+              <img src="../images/bobrick/2.png" alt="bobrick image">
+              <img src="../images/bobrick/1.png" alt="bobrick image">
+              <img src="../images/bobrick/Mobile SMI - Create (1).png" alt="bobrick image">
+              <img src="../images/bobrick/Mobile SMI Wireframe - Status - User.png" alt="bobrick image">
+              <img src="../images/bobrick/SMI Full Details - Administrative Tools.png" alt="bobrick image">
+              <br><br><br>
+              <h5>This last one is an example of a yearly report that could be used in Boardroom meetings.</h5>
+              <img src="../images/bobrick/SMI Dashboard idea.png" alt="bobrick image"> <br><br><br>
+              
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Jeremy Parker</h3>
+      <h3><a href="https://www.linkedin.com/in/jeremy-parker-8ab54923/">LinkedIn</a></h3>
+        <h3><a href="https://profile.indeed.com/p/jeremyp-4f67v1z">Indeed</a></h3>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3aAtFrWft2k?si=LzlYCgGVDNe5LS6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="../index.html#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/validate.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/typed.umd.js"></script>
+  <script src="../js/purecounter_vanilla.js"></script>
+  <script src="../js/noframework.waypoints.js"></script>
+  <script src="../js/glightbox.min.js"></script>
+  <script src="../js/imagesloaded.pkgd.min.js"></script>
+  <script src="../js/isotope.pkgd.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../js/main.js"></script>
+
+
+
+</body></html>
