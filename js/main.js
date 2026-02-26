@@ -227,9 +227,11 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
   const backgroundImages = [
-    "images/reflectednature.png",
-    "images/choppysunrise.png",
-    "images/rockymountain.png",
+
+    "images/backgrounds/rockymountain.png",
+    "images/backgrounds/joshuatreeleft.jpg",
+    "images/backgrounds/reflectednature.png",
+
   ];
 
   const heroImage = document.getElementById("hero-image");
