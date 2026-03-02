@@ -529,7 +529,7 @@ section,
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
 }
@@ -578,7 +578,7 @@ section,
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .resume .resume-item ul {
@@ -586,7 +586,7 @@ section,
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .resume .resume-item:last-child {
@@ -997,10 +997,12 @@ color: rgb(39, 39, 197);
   align-items: center;     /* Vertically centers content */
   display: grid;
   place-items: center; /* Centers content both horizontally and vertically */
-}
+  }
 
 .freelancer-img  {
-  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  justify-content: center; /* Horizontally centers content */
+  align-items: center;     /* Vertically centers content */
+  max-width: 70%; /* Ensures the image doesn't exceed its container's width */
   height: auto;    /* Maintains the image's aspect ratio automatically */
   display: block;  /* Helps with centering and layout in some cases */
 }
