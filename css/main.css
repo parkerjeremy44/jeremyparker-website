@@ -665,7 +665,7 @@ section,
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
-}
+} 
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;

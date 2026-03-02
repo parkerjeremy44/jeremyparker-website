@@ -1,2 +1,2 @@
 RewriteEngine On
-    RewriteRule ^(.*)$ https://jeremy.life/$1 [R=301,L]
+    RewriteRule ^(.*)$ https://jeremy.life/$1 [R=301,L] 
